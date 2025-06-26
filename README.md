@@ -135,6 +135,10 @@ int main() {
 * Where is the floating-point result returned?
 * Can you observe floating-point multiplication instructions (`mulss`)?
 
+#### c) Modularize:
+
+* Move the function implementation into a header-only-library and compile again!
+
 ---
 
 ### Task 4: Mixed Types
@@ -169,6 +173,12 @@ int main() {
 
 * How are mixed types split across general-purpose registers and floating-point registers?
 * Where do you observe implicit type conversions?
+
+#### c) Modularize:
+
+* Move the function implementation into a statically compiled library (`*.o`-file, using the `gcc -c` command)
+* Compile the main and the function independently
+* Link them together
 
 ---
 
