@@ -146,7 +146,7 @@ Create:
 
 #include <stdio.h>
 
-float mixed_operation(int a, char b, float c) {
+float crunch_mixed_numbers(int a, char b, float c) {
     return (a + b) * c;
 }
 
@@ -155,7 +155,7 @@ int main() {
     char val2 = 3;
     float val3 = 2.5f;
 
-    float result = mixed_operation(val1, val2, val3);
+    float result = crunch_mixed_numbers(val1, val2, val3);
     printf("Mixed result: %f\n", result);
     return 0;
 }
