@@ -63,9 +63,11 @@ int main() {
 * `objdump -d int_functions | less`
 
 #### b) Reflect:
-
-* Which registers are used to pass `x`, `y`, and `z` into `compute_sum`?
+a
+* Which registers are used to pass `x`, `y`, and `z` into `compute_sum`? Die werte werden in edx esi und edi verschoben und anschließend mit compute sum aufgerufen 
+  
 * Where does the return value appear after `compute_sum` finishes?
+  mov rbp - eax
 
 ---
 
